@@ -14,7 +14,7 @@
         $ano = $_REQUEST['ano'] ?? $anoAtual;
     ?>
     <main>
-        <h1>Maquina do Tempo</h1>
+        <h1>Calculando a sua idade</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
             <label for="nasc">Em que ano você nasceu ?</label>
             <input type="number" name="nasc" id="idnasc" min="1900" max="<?=$anoAtual?>" value="<?=$nasc?>">
